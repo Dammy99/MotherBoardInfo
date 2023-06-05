@@ -1,0 +1,86 @@
+﻿<UserControl x:Class="MotherBoardInfo.Views.MotherboardView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:MotherBoardInfo.Views"
+             xmlns:vm="clr-namespace:MotherBoardInfo.ViewModels"
+             mc:Ignorable="d" 
+             d:DataContext="{d:DesignInstance vm:MotherboardViewModel, IsDesignTimeCreatable=True}"
+             d:DesignHeight="800" d:DesignWidth="800">
+    <Grid>
+        <Border Style="{StaticResource Background2}">
+            <ScrollViewer Margin="5">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="350"/>
+                    <RowDefinition Height="430"/>
+                </Grid.RowDefinitions>
+                    
+                
+                <Border Grid.Row="0" Style="{StaticResource Background3}" Margin="20">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="80"/>
+                            <RowDefinition/>
+                        </Grid.RowDefinitions>
+                            <TextBlock Grid.Row="0" Text="{DynamicResource Motherboard}" Style="{StaticResource HeaderStyle}" />
+                        <StackPanel Grid.Row="1" Orientation="Horizontal">
+                            <StackPanel Orientation="Vertical" Margin="50 10 10 10">
+                                    <TextBlock Text="{DynamicResource Model}" Style="{StaticResource SimpleTextStyle}" Margin="10" HorizontalAlignment="Right"/>
+                                    <TextBlock Text="{DynamicResource Manufacturer}" Style="{StaticResource SimpleTextStyle}" Margin="10" HorizontalAlignment="Right"/>
+                                    <TextBlock Text="{DynamicResource SerialNum}" Style="{StaticResource SimpleTextStyle}" Margin="10" HorizontalAlignment="Right"/>
+                                    <TextBlock Text="{DynamicResource ModelVersion}" Style="{StaticResource SimpleTextStyle}" Margin="10" HorizontalAlignment="Right"/>
+                                    <TextBlock Text="{DynamicResource BusType}" Style="{StaticResource SimpleTextStyle}" Margin="10" HorizontalAlignment="Right"/>
+                            </StackPanel>
+
+                            <StackPanel Orientation="Vertical" Margin="0 10">
+                                <TextBlock Text="{Binding Motherboard.Model}" Style="{StaticResource SimpleTextStyle}" Margin="10"  HorizontalAlignment="Left"/>
+                                <TextBlock Text="{Binding Motherboard.Manufacturer}" Style="{StaticResource SimpleTextStyle}" Margin="10"  HorizontalAlignment="Left"/>
+                                <TextBlock Text="{Binding Motherboard.SerialNumber}" Style="{StaticResource SimpleTextStyle}" Margin="10" HorizontalAlignment="Left"/>
+                                <TextBlock Text="{Binding Motherboard.MotherboardModelVersion}" Style="{StaticResource SimpleTextStyle}" Margin="10" HorizontalAlignment="Left"/>
+                                <TextBlock Text="{Binding Motherboard.PrimaryBusType}" Style="{StaticResource SimpleTextStyle}" Margin="10" HorizontalAlignment="Left"/>
+                              
+                            </StackPanel>
+                        </StackPanel>
+                    </Grid>
+                </Border>
+
+
+                <Border Grid.Row="1" Style="{StaticResource Background3}" Margin="20">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="80"/>
+                            <RowDefinition/>
+                        </Grid.RowDefinitions>
+                            <TextBlock Grid.Row="0" Text="{DynamicResource BIOS}" Style="{StaticResource HeaderStyle}" />
+                        <StackPanel Grid.Row="1" Orientation="Horizontal">
+                            <StackPanel Orientation="Vertical" Margin="50 10 10 0">
+                                    <TextBlock Text="{DynamicResource Publisher}" Style="{StaticResource SimpleTextStyle}" HorizontalAlignment="Right"/>
+                                    <TextBlock Text="{DynamicResource Version}" Style="{StaticResource SimpleTextStyle}" HorizontalAlignment="Right"/>
+                                    <TextBlock Text="{DynamicResource SMVersion}" Style="{StaticResource SimpleTextStyle}" HorizontalAlignment="Right"/>
+                                    <TextBlock Text="{DynamicResource Date}" Style="{StaticResource SimpleTextStyle}" HorizontalAlignment="Right"/>
+                                    <TextBlock Text="{DynamicResource Mode}" Style="{StaticResource SimpleTextStyle}" HorizontalAlignment="Right"/>
+                                    <TextBlock Text="{DynamicResource MajMinVer}" Style="{StaticResource SimpleTextStyle}" HorizontalAlignment="Right"/>
+                                    <TextBlock Text="{DynamicResource SM_MajMinVer}" Style="{StaticResource SimpleTextStyle}" HorizontalAlignment="Right"/>
+                            </StackPanel>
+
+                                <StackPanel Orientation="Vertical" Margin="10 10 0 0">
+                                <TextBlock Text="{Binding Bios.BIOSPublisher}" Style="{StaticResource SimpleTextStyle}" HorizontalAlignment="Left"/>
+                                <TextBlock Text="{Binding Bios.BIOSVersion}" Style="{StaticResource SimpleTextStyle}" HorizontalAlignment="Left"/>
+                                <TextBlock Text="{Binding Bios.SM_BIOSVersion}" Style="{StaticResource SimpleTextStyle}" HorizontalAlignment="Left"/>
+                                <TextBlock Text="{Binding Bios.BIOSDate}" Style="{StaticResource SimpleTextStyle}" HorizontalAlignment="Left"/>
+                                <TextBlock Text="{Binding Bios.BIOSMode}" Style="{StaticResource SimpleTextStyle}" HorizontalAlignment="Left"/>
+                                <TextBlock Text="{Binding Bios.BIOS_Major_Minor_Version}" Style="{StaticResource SimpleTextStyle}" HorizontalAlignment="Left"/>
+                                <TextBlock Text="{Binding Bios.SM_BIOS_Major_Minor_Version}" Style="{StaticResource SimpleTextStyle}" HorizontalAlignment="Left"/>
+
+                            </StackPanel>
+                        </StackPanel>
+
+                    </Grid>
+                </Border>
+            </Grid>
+            </ScrollViewer>
+        </Border>
+    </Grid>
+</UserControl>

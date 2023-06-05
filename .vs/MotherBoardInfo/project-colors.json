@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "0513c33f-aecd-4b92-972d-f4e745e5de72": {
+      "ProjectGuid": "0513c33f-aecd-4b92-972d-f4e745e5de72",
+      "DisplayName": "MotherBoardInfo",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

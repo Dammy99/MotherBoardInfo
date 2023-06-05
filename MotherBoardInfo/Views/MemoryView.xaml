@@ -1,0 +1,91 @@
+﻿<UserControl x:Class="MotherBoardInfo.Views.MemoryView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:MotherBoardInfo.Views"
+             xmlns:vm="clr-namespace:MotherBoardInfo.ViewModels"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             mc:Ignorable="d" 
+             d:DataContext="{d:DesignInstance vm:MemoryViewModel, IsDesignTimeCreatable=True}"
+
+             d:DesignHeight="700" d:DesignWidth="750">
+    <Grid>
+        <Border Style="{StaticResource Background2}">
+            <ScrollViewer Margin="5">
+                
+            
+            <Border Style="{StaticResource Background3}" Margin="20">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="80"/>
+                        <RowDefinition Height="200"/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                        <TextBlock Text="{DynamicResource Memory}" Style="{StaticResource HeaderStyle}"/>
+                    <Grid Grid.Row="1">
+                        
+                        <StackPanel Grid.Column="0" Orientation="Horizontal">
+                            <StackPanel Orientation="Vertical" Margin="20 20 5 20">
+                                    <TextBlock Text="{DynamicResource TotaRAM}" Style="{StaticResource SimpleTextStyle}" HorizontalAlignment="Right" Margin="10"/>
+                                    <TextBlock Text="{DynamicResource UsedRAM}" Style="{StaticResource SimpleTextStyle}" HorizontalAlignment="Right" Margin="10"/>
+                                    <TextBlock Text="{DynamicResource VirtualMem}" Style="{StaticResource SimpleTextStyle}" HorizontalAlignment="Right" Margin="10"/>
+                                <TextBlock Text="{DynamicResource FreeVirtualMem}" Style="{StaticResource SimpleTextStyle}" HorizontalAlignment="Right" Margin="10"/>
+                            </StackPanel>
+                            <StackPanel Orientation="Vertical" Margin="10 20 20 20">
+                                <TextBlock Text="{Binding Memory.TotalRAM}" Style="{StaticResource SimpleTextStyle}" HorizontalAlignment="Left" Margin="10"/>
+                                <TextBlock Text="{Binding Memory.UsedRAM}" Style="{StaticResource SimpleTextStyle}" HorizontalAlignment="Left" Margin="10"/>
+                                <TextBlock Text="{Binding Memory.VirtualMemoryAmount}" Style="{StaticResource SimpleTextStyle}" HorizontalAlignment="Left" Margin="10"/>
+                                <TextBlock Text="{Binding Memory.FreeVirtualMemory}" Style="{StaticResource SimpleTextStyle}" HorizontalAlignment="Left" Margin="10"/>
+
+                            </StackPanel>
+                        </StackPanel>
+
+                    </Grid>
+                    <Grid Grid.Row="2" Margin="30 0" >
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="100"/>
+                            <RowDefinition/>
+                        </Grid.RowDefinitions>
+                        <StackPanel Grid.Row="0" Orientation="Horizontal">
+                            <ComboBox  ItemsSource="{Binding Memory.RAMSlots}" 
+                                       SelectedItem="{Binding SelectedSlot}" 
+                                       DisplayMemberPath="Location"
+                                       Height="50" 
+                                       
+                                       Width="150" 
+                                       Foreground="#80F9D7" 
+                                       FontWeight="Bold"
+                                       Margin="20" VerticalAlignment="Top"
+                                       HorizontalAlignment="Left"   />
+                            <TextBlock Grid.Row="0" Text="Amount: " Style="{StaticResource SimpleTextStyle}" Margin="20 40" VerticalAlignment="Top"/>
+                            <TextBlock  Grid.Row="0" Text="{Binding SelectedSlot.Amount}" Margin="20 40" VerticalAlignment="Top" Style="{StaticResource SimpleTextStyle}"/>
+                        </StackPanel>
+                        <StackPanel Grid.Row="1" Orientation="Horizontal">
+                            <StackPanel>
+                                    <TextBlock Text="{DynamicResource Manufacturer}" Style="{StaticResource SimpleTextStyle}" Margin="20 10" VerticalAlignment="Top" HorizontalAlignment="Right"/>
+                                <TextBlock Text="{DynamicResource FormFactor}" Style="{StaticResource SimpleTextStyle}" Margin="20 10" VerticalAlignment="Top" HorizontalAlignment="Right"/>
+                                    <TextBlock Text="{DynamicResource Frequency}" Style="{StaticResource SimpleTextStyle}" Margin="20 10" VerticalAlignment="Top" HorizontalAlignment="Right"/>
+                                    <TextBlock Text="{DynamicResource SerialNum}" Style="{StaticResource SimpleTextStyle}" Margin="20 10" VerticalAlignment="Top" HorizontalAlignment="Right"/>
+                                    <TextBlock Text="{DynamicResource Type}" Style="{StaticResource SimpleTextStyle}" Margin="20 10" VerticalAlignment="Top" HorizontalAlignment="Right"/>
+                                    <TextBlock Text="{DynamicResource Width}" Style="{StaticResource SimpleTextStyle}" Margin="20 10" VerticalAlignment="Top" HorizontalAlignment="Right"/>
+
+                            </StackPanel>
+                            <StackPanel>
+                                <TextBlock Text="{Binding SelectedSlot.Manufacturer}" Style="{StaticResource SimpleTextStyle}" Margin="0 10" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+                                <TextBlock Text="{Binding SelectedSlot.FormFactor}" Style="{StaticResource SimpleTextStyle}" Margin="0 10" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+                                <TextBlock Text="{Binding SelectedSlot.Frequency}" Style="{StaticResource SimpleTextStyle}" Margin="0 10" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+                                <TextBlock Text="{Binding SelectedSlot.SericalNumber}" Style="{StaticResource SimpleTextStyle}" Margin="0 10" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+                                <TextBlock Text="{Binding SelectedSlot.Type}" Style="{StaticResource SimpleTextStyle}" Margin="0 10" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+                                <TextBlock Text="{Binding SelectedSlot.Width}" Style="{StaticResource SimpleTextStyle}" Margin="0 10" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+
+                            </StackPanel>
+                        </StackPanel>
+                    </Grid>
+                </Grid>
+               
+            </Border>
+            </ScrollViewer>
+        </Border>  
+    </Grid>
+</UserControl>

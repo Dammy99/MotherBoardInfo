@@ -1,0 +1,71 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
+    
+    
+    <!--//Buttons-->
+   
+    
+    <system:String x:Key="MotherboardBtn">Motherboard</system:String>
+    <system:String x:Key="CPUBtn">CPU</system:String>
+    <system:String x:Key="GPUBtn">Graphic</system:String>
+    <system:String x:Key="MemoryBtn">Memory</system:String>
+    
+    <!--//motherboard page-->
+    <system:String x:Key="Motherboard">Motherboard</system:String>
+    <system:String x:Key="Model">Model:</system:String>
+    <system:String x:Key="Manufacturer">Manufacturer:</system:String>
+    <system:String x:Key="SerialNum">Serial vumber:</system:String>
+    <system:String x:Key="ModelVersion">Model version:</system:String>
+    <system:String x:Key="BusType">Primary bus type:</system:String>
+
+
+    <!--//bios page-->
+    <system:String x:Key="BIOS">BIOS</system:String>
+    <system:String x:Key="Publisher">Publisher:</system:String>
+    <system:String x:Key="Version">Version:</system:String>
+    <system:String x:Key="SMVersion">SM-BIOS version:</system:String>
+    <system:String x:Key="Date">Date:</system:String>
+    <system:String x:Key="Mode">Mode:</system:String>
+    <system:String x:Key="MajMinVer">Maj-Min version:</system:String>
+    <system:String x:Key="SM_MajMinVer">SM-Maj-Min version:</system:String>
+    
+    
+    <!--CPU page-->
+
+    <system:String x:Key="CPU">CPU</system:String>
+    <system:String x:Key="ProcFamily">Processor familly:</system:String>
+    <system:String x:Key="Speed">Speed:</system:String>
+    <system:String x:Key="UsedProc">Processor used:</system:String>
+    <system:String x:Key="Architecture">Architecture:</system:String>
+    <system:String x:Key="Socket">Socket:</system:String>
+    <system:String x:Key="L1">Cache L1:</system:String>
+    <system:String x:Key="L2">Cache L2:</system:String>
+    <system:String x:Key="L3">Cache L3:</system:String>
+    <system:String x:Key="CoreCount">Core count:</system:String>
+    <system:String x:Key="LogCoreCount">Logical core count:</system:String>
+    <system:String x:Key="Virtualization">Virtualization:</system:String>
+    
+    <!--Memory page-->
+    <system:String x:Key="Memory">Memory</system:String>
+    <system:String x:Key="TotaRAM">Total RAM:</system:String>
+    <system:String x:Key="UsedRAM">Used RAM:</system:String>
+    <system:String x:Key="VirtualMem">Virtual memory:</system:String>
+    <system:String x:Key="FreeVirtualMem">Free virtual memory:</system:String>
+    <system:String x:Key="Amount">Amount:</system:String>
+    <system:String x:Key="FormFactor">Form factor:</system:String>
+    <system:String x:Key="Frequency">Frequency:</system:String>
+    <system:String x:Key="Type">Type:</system:String>
+    <system:String x:Key="Width">Width:</system:String>
+    
+    <!--GPU page-->
+    <system:String x:Key="GPU">Graphics processor:</system:String>
+    <system:String x:Key="DriverVer">Driver version:</system:String>
+    <system:String x:Key="Drivers">Drivers:</system:String>
+    <system:String x:Key="GPUMemory">Graphic memory:</system:String>
+    <system:String x:Key="DACType">DAC type:</system:String>
+    <system:String x:Key="INFFile">INF file:</system:String>
+    <system:String x:Key="INFsection">INF section:</system:String>
+    <system:String x:Key="Developer">The program was developed by a student of the KI-34 group, Demchyk Nazar</system:String>
+   
+</ResourceDictionary>

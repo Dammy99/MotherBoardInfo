@@ -1,0 +1,17 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <SolidColorBrush x:Key="Backgroud" Color="#1C2F3E" />
+    <SolidColorBrush x:Key="Title" Color="#1C2F3E" />
+    <SolidColorBrush x:Key="Navigation" Color="#1C2F3E" />
+
+
+    <Style x:Key="Background2" TargetType="Border">
+        <Setter Property="CornerRadius" Value="0 0 10 0"/>
+        <Setter Property="Background" Value="{StaticResource Backgroud}"/>
+    </Style>
+
+    <Style x:Key="Background3" TargetType="Border">
+        <Setter Property="CornerRadius" Value="10 10 10 10"/>
+        <Setter Property="Background" Value="#253C4D"/>
+    </Style>
+</ResourceDictionary>

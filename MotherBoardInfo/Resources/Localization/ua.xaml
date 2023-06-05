@@ -1,0 +1,69 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
+
+
+
+    <system:String x:Key="MotherboardBtn">Материнська плата</system:String>
+    <system:String x:Key="CPUBtn">ЦП</system:String>
+    <system:String x:Key="GPUBtn">Пам'ять</system:String>
+    <system:String x:Key="MemoryBtn">Графіка</system:String>
+
+    <!--//motherboard page-->
+    <system:String x:Key="Motherboard">Материнська плата</system:String>
+    <system:String x:Key="Model">Модель:</system:String>
+    <system:String x:Key="Manufacturer">Виробник:</system:String>
+    <system:String x:Key="SerialNum">Серійний номер:</system:String>
+    <system:String x:Key="ModelVersion">Версія:</system:String>
+    <system:String x:Key="BusType">Тип первинної шини:</system:String>
+
+
+    <!--//bios page-->
+    <system:String x:Key="BIOS">БІОС</system:String>
+    <system:String x:Key="Publisher">Видавець:</system:String>
+    <system:String x:Key="Version">Версія:</system:String>
+    <system:String x:Key="SMVersion">SM-БІОС версія:</system:String>
+    <system:String x:Key="Date">Дата:</system:String>
+    <system:String x:Key="Mode">Режим:</system:String>
+    <system:String x:Key="MajMinVer">Ocн.- мін. версія:</system:String>
+    <system:String x:Key="SM_MajMinVer">SM-Ocн.- мін. версіяn:</system:String>
+
+
+    <!--CPU page-->
+
+    <system:String x:Key="CPU">Центальний процесор</system:String>
+    <system:String x:Key="ProcFamily">Сімейство процесорів:</system:String>
+    <system:String x:Key="Speed">Швидкість:</system:String>
+    <system:String x:Key="UsedProc">Задіяно:</system:String>
+    <system:String x:Key="Architecture">Архітектура:</system:String>
+    <system:String x:Key="Socket">Сокет:</system:String>
+    <system:String x:Key="L1">Кеш L1:</system:String>
+    <system:String x:Key="L2">Кеш L2:</system:String>
+    <system:String x:Key="L3">Кеш L3:</system:String>
+    <system:String x:Key="CoreCount">Кількість ядер:</system:String>
+    <system:String x:Key="LogCoreCount">Кількість лог. ядер:</system:String>
+    <system:String x:Key="Virtualization">Віртуалізація:</system:String>
+
+    <!--Memory page-->
+    <system:String x:Key="Memory">Пам'ять</system:String>
+    <system:String x:Key="TotaRAM">Загальна пам'ять:</system:String>
+    <system:String x:Key="UsedRAM">Використано :</system:String>
+    <system:String x:Key="VirtualMem">Віртуальна пам'ять:</system:String>
+    <system:String x:Key="FreeVirtualMem">Вільно вірт. пам'яті:</system:String>
+    <system:String x:Key="Amount">Об'єм:</system:String>
+    <system:String x:Key="FormFactor">Форм-фактор:</system:String>
+    <system:String x:Key="Frequency">Частота:</system:String>
+    <system:String x:Key="Type">Тип:</system:String>
+    <system:String x:Key="Width">Ширина:</system:String>
+
+    <!--GPU page-->
+    <system:String x:Key="GPU">Графічний процесор:</system:String>
+    <system:String x:Key="DriverVer">Версія драйвера:</system:String>
+    <system:String x:Key="Drivers">Драйвери:</system:String>
+    <system:String x:Key="GPUMemory">Графічна пам'ять:</system:String>
+    <system:String x:Key="DACType">тип ЦАП:</system:String>
+    <system:String x:Key="INFFile">INF файл:</system:String>
+    <system:String x:Key="INFsection">INF секція:</system:String>
+    <system:String x:Key="Developer">Програма була розроблена студентом групи КІ-34 Демчиком Назаром</system:String>
+    
+</ResourceDictionary>

@@ -1,0 +1,78 @@
+D:\!!!Study\Semester6\SPZ\Kursova\MotherBoardInfo\MotherBoardInfo\obj\Debug\MotherBoardInfo.csproj.AssemblyReference.cache
+D:\!!!Study\Semester6\SPZ\Kursova\MotherBoardInfo\MotherBoardInfo\obj\Debug\MotherBoardInfo.csproj.SuggestedBindingRedirects.cache
+D:\!!!Study\Semester6\SPZ\Kursova\MotherBoardInfo\MotherBoardInfo\obj\Debug\Resources\Localization\en.baml
+D:\!!!Study\Semester6\SPZ\Kursova\MotherBoardInfo\MotherBoardInfo\obj\Debug\Resources\Localization\ua.baml
+D:\!!!Study\Semester6\SPZ\Kursova\MotherBoardInfo\MotherBoardInfo\obj\Debug\Resources\Styles\Brushes.baml
+D:\!!!Study\Semester6\SPZ\Kursova\MotherBoardInfo\MotherBoardInfo\obj\Debug\Resources\Styles\ButtonStyles.baml
+D:\!!!Study\Semester6\SPZ\Kursova\MotherBoardInfo\MotherBoardInfo\obj\Debug\Resources\Styles\PageStyle.baml
+D:\!!!Study\Semester6\SPZ\Kursova\MotherBoardInfo\MotherBoardInfo\obj\Debug\Resources\Styles\TextStyles.baml
+D:\!!!Study\Semester6\SPZ\Kursova\MotherBoardInfo\MotherBoardInfo\obj\Debug\Views\CPUView.g.cs
+D:\!!!Study\Semester6\SPZ\Kursova\MotherBoardInfo\MotherBoardInfo\obj\Debug\Views\GraphicView.g.cs
+D:\!!!Study\Semester6\SPZ\Kursova\MotherBoardInfo\MotherBoardInfo\obj\Debug\Views\MainWindow.g.cs
+D:\!!!Study\Semester6\SPZ\Kursova\MotherBoardInfo\MotherBoardInfo\obj\Debug\Views\MemoryView.g.cs
+D:\!!!Study\Semester6\SPZ\Kursova\MotherBoardInfo\MotherBoardInfo\obj\Debug\Views\MotherboardView.g.cs
+D:\!!!Study\Semester6\SPZ\Kursova\MotherBoardInfo\MotherBoardInfo\obj\Debug\App.g.cs
+D:\!!!Study\Semester6\SPZ\Kursova\MotherBoardInfo\MotherBoardInfo\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\!!!Study\Semester6\SPZ\Kursova\MotherBoardInfo\MotherBoardInfo\obj\Debug\MotherBoardInfo_MarkupCompile.cache
+D:\!!!Study\Semester6\SPZ\Kursova\MotherBoardInfo\MotherBoardInfo\obj\Debug\MotherBoardInfo_MarkupCompile.lref
+D:\!!!Study\Semester6\SPZ\Kursova\MotherBoardInfo\MotherBoardInfo\obj\Debug\App.baml
+D:\!!!Study\Semester6\SPZ\Kursova\MotherBoardInfo\MotherBoardInfo\obj\Debug\Resources\DataTemplates\DataTemplate.baml
+D:\!!!Study\Semester6\SPZ\Kursova\MotherBoardInfo\MotherBoardInfo\obj\Debug\Views\CPUView.baml
+D:\!!!Study\Semester6\SPZ\Kursova\MotherBoardInfo\MotherBoardInfo\obj\Debug\Views\GraphicView.baml
+D:\!!!Study\Semester6\SPZ\Kursova\MotherBoardInfo\MotherBoardInfo\obj\Debug\Views\MainWindow.baml
+D:\!!!Study\Semester6\SPZ\Kursova\MotherBoardInfo\MotherBoardInfo\obj\Debug\Views\MemoryView.baml
+D:\!!!Study\Semester6\SPZ\Kursova\MotherBoardInfo\MotherBoardInfo\obj\Debug\Views\MotherboardView.baml
+D:\!!!Study\Semester6\SPZ\Kursova\MotherBoardInfo\MotherBoardInfo\obj\Debug\MotherBoardInfo.g.resources
+D:\!!!Study\Semester6\SPZ\Kursova\MotherBoardInfo\MotherBoardInfo\obj\Debug\MotherBoardInfo.Properties.Resources.resources
+D:\!!!Study\Semester6\SPZ\Kursova\MotherBoardInfo\MotherBoardInfo\obj\Debug\MotherBoardInfo.csproj.GenerateResource.cache
+D:\!!!Study\Semester6\SPZ\Kursova\MotherBoardInfo\MotherBoardInfo\obj\Debug\MotherBoardInfo.csproj.CoreCompileInputs.cache
+D:\!!!Study\Semester6\SPZ\Kursova\MotherBoardInfo\MotherBoardInfo\obj\Debug\MotherBoardInfo.exe
+D:\!!!Study\Semester6\SPZ\Kursova\MotherBoardInfo\MotherBoardInfo\obj\Debug\MotherBoardInfo.pdb
+D:\!!!Study\Semester6\SPZ\Kursova\MotherBoardInfo\MotherBoardInfo\bin\Debug\MotherBoardInfo.exe.config
+D:\!!!Study\Semester6\SPZ\Kursova\MotherBoardInfo\MotherBoardInfo\bin\Debug\MotherBoardInfo.exe
+D:\!!!Study\Semester6\SPZ\Kursova\MotherBoardInfo\MotherBoardInfo\bin\Debug\MotherBoardInfo.pdb
+D:\!!!Study\Semester6\SPZ\Kursova\MotherBoardInfo\MotherBoardInfo\bin\Debug\Hardcodet.NotifyIcon.Wpf.xml
+D:\!!!Study\Semester6\SPZ\Kursova\MotherBoardInfo\MotherBoardInfo\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\!!!Study\Semester6\SPZ\Kursova\MotherBoardInfo\MotherBoardInfo\bin\Debug\Microsoft.Xaml.Behaviors.xml
+D:\!!!Study\Semester6\SPZ\Kursova\MotherBoardInfo\MotherBoardInfo\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\!!!Study\Semester6\SPZ\Kursova\MotherBoardInfo\MotherBoardInfo\obj\Debug\MotherBoardInfo.csproj.Fody.CopyLocal.cache
+D:\!!!Study\Semester6\SPZ\Kursova\MotherBoardInfo\MotherBoardInfo\obj\Debug\MotherBoardInfo.csproj.CopyComplete
+D:\!!!Study\Semester6\SPZ\Kursova\Курсова звіт\Program\MotherBoardInfo\MotherBoardInfo\bin\Debug\MotherBoardInfo.exe.config
+D:\!!!Study\Semester6\SPZ\Kursova\Курсова звіт\Program\MotherBoardInfo\MotherBoardInfo\bin\Debug\MotherBoardInfo.exe
+D:\!!!Study\Semester6\SPZ\Kursova\Курсова звіт\Program\MotherBoardInfo\MotherBoardInfo\bin\Debug\MotherBoardInfo.pdb
+D:\!!!Study\Semester6\SPZ\Kursova\Курсова звіт\Program\MotherBoardInfo\MotherBoardInfo\bin\Debug\Hardcodet.NotifyIcon.Wpf.xml
+D:\!!!Study\Semester6\SPZ\Kursova\Курсова звіт\Program\MotherBoardInfo\MotherBoardInfo\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\!!!Study\Semester6\SPZ\Kursova\Курсова звіт\Program\MotherBoardInfo\MotherBoardInfo\bin\Debug\Microsoft.Xaml.Behaviors.xml
+D:\!!!Study\Semester6\SPZ\Kursova\Курсова звіт\Program\MotherBoardInfo\MotherBoardInfo\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\!!!Study\Semester6\SPZ\Kursova\Курсова звіт\Program\MotherBoardInfo\MotherBoardInfo\obj\Debug\MotherBoardInfo.csproj.AssemblyReference.cache
+D:\!!!Study\Semester6\SPZ\Kursova\Курсова звіт\Program\MotherBoardInfo\MotherBoardInfo\obj\Debug\MotherBoardInfo.csproj.SuggestedBindingRedirects.cache
+D:\!!!Study\Semester6\SPZ\Kursova\Курсова звіт\Program\MotherBoardInfo\MotherBoardInfo\obj\Debug\Resources\Localization\en.baml
+D:\!!!Study\Semester6\SPZ\Kursova\Курсова звіт\Program\MotherBoardInfo\MotherBoardInfo\obj\Debug\Resources\Localization\ua.baml
+D:\!!!Study\Semester6\SPZ\Kursova\Курсова звіт\Program\MotherBoardInfo\MotherBoardInfo\obj\Debug\Resources\Styles\Brushes.baml
+D:\!!!Study\Semester6\SPZ\Kursova\Курсова звіт\Program\MotherBoardInfo\MotherBoardInfo\obj\Debug\Resources\Styles\ButtonStyles.baml
+D:\!!!Study\Semester6\SPZ\Kursova\Курсова звіт\Program\MotherBoardInfo\MotherBoardInfo\obj\Debug\Resources\Styles\PageStyle.baml
+D:\!!!Study\Semester6\SPZ\Kursova\Курсова звіт\Program\MotherBoardInfo\MotherBoardInfo\obj\Debug\Resources\Styles\TextStyles.baml
+D:\!!!Study\Semester6\SPZ\Kursova\Курсова звіт\Program\MotherBoardInfo\MotherBoardInfo\obj\Debug\Views\CPUView.g.cs
+D:\!!!Study\Semester6\SPZ\Kursova\Курсова звіт\Program\MotherBoardInfo\MotherBoardInfo\obj\Debug\Views\GraphicView.g.cs
+D:\!!!Study\Semester6\SPZ\Kursova\Курсова звіт\Program\MotherBoardInfo\MotherBoardInfo\obj\Debug\Views\MainWindow.g.cs
+D:\!!!Study\Semester6\SPZ\Kursova\Курсова звіт\Program\MotherBoardInfo\MotherBoardInfo\obj\Debug\Views\MemoryView.g.cs
+D:\!!!Study\Semester6\SPZ\Kursova\Курсова звіт\Program\MotherBoardInfo\MotherBoardInfo\obj\Debug\Views\MotherboardView.g.cs
+D:\!!!Study\Semester6\SPZ\Kursova\Курсова звіт\Program\MotherBoardInfo\MotherBoardInfo\obj\Debug\App.g.cs
+D:\!!!Study\Semester6\SPZ\Kursova\Курсова звіт\Program\MotherBoardInfo\MotherBoardInfo\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\!!!Study\Semester6\SPZ\Kursova\Курсова звіт\Program\MotherBoardInfo\MotherBoardInfo\obj\Debug\MotherBoardInfo_MarkupCompile.cache
+D:\!!!Study\Semester6\SPZ\Kursova\Курсова звіт\Program\MotherBoardInfo\MotherBoardInfo\obj\Debug\MotherBoardInfo_MarkupCompile.lref
+D:\!!!Study\Semester6\SPZ\Kursova\Курсова звіт\Program\MotherBoardInfo\MotherBoardInfo\obj\Debug\App.baml
+D:\!!!Study\Semester6\SPZ\Kursova\Курсова звіт\Program\MotherBoardInfo\MotherBoardInfo\obj\Debug\Resources\DataTemplates\DataTemplate.baml
+D:\!!!Study\Semester6\SPZ\Kursova\Курсова звіт\Program\MotherBoardInfo\MotherBoardInfo\obj\Debug\Views\CPUView.baml
+D:\!!!Study\Semester6\SPZ\Kursova\Курсова звіт\Program\MotherBoardInfo\MotherBoardInfo\obj\Debug\Views\GraphicView.baml
+D:\!!!Study\Semester6\SPZ\Kursova\Курсова звіт\Program\MotherBoardInfo\MotherBoardInfo\obj\Debug\Views\MainWindow.baml
+D:\!!!Study\Semester6\SPZ\Kursova\Курсова звіт\Program\MotherBoardInfo\MotherBoardInfo\obj\Debug\Views\MemoryView.baml
+D:\!!!Study\Semester6\SPZ\Kursova\Курсова звіт\Program\MotherBoardInfo\MotherBoardInfo\obj\Debug\Views\MotherboardView.baml
+D:\!!!Study\Semester6\SPZ\Kursova\Курсова звіт\Program\MotherBoardInfo\MotherBoardInfo\obj\Debug\MotherBoardInfo.g.resources
+D:\!!!Study\Semester6\SPZ\Kursova\Курсова звіт\Program\MotherBoardInfo\MotherBoardInfo\obj\Debug\MotherBoardInfo.Properties.Resources.resources
+D:\!!!Study\Semester6\SPZ\Kursova\Курсова звіт\Program\MotherBoardInfo\MotherBoardInfo\obj\Debug\MotherBoardInfo.csproj.GenerateResource.cache
+D:\!!!Study\Semester6\SPZ\Kursova\Курсова звіт\Program\MotherBoardInfo\MotherBoardInfo\obj\Debug\MotherBoardInfo.csproj.CoreCompileInputs.cache
+D:\!!!Study\Semester6\SPZ\Kursova\Курсова звіт\Program\MotherBoardInfo\MotherBoardInfo\obj\Debug\MotherBoardInfo.csproj.Fody.CopyLocal.cache
+D:\!!!Study\Semester6\SPZ\Kursova\Курсова звіт\Program\MotherBoardInfo\MotherBoardInfo\obj\Debug\MotherBoardInfo.csproj.CopyComplete
+D:\!!!Study\Semester6\SPZ\Kursova\Курсова звіт\Program\MotherBoardInfo\MotherBoardInfo\obj\Debug\MotherBoardInfo.exe
+D:\!!!Study\Semester6\SPZ\Kursova\Курсова звіт\Program\MotherBoardInfo\MotherBoardInfo\obj\Debug\MotherBoardInfo.pdb

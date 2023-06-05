@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MotherBoardInfo.Infrastructure.Commands.SetNormalSizeCommand">
+    <Position X="27.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Infrastructure\Commands\SetNormalSizeCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MotherBoardInfo.Infrastructure.Commands.CloseAppCommand">
+    <Position X="34.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Infrastructure\Commands\CloseAppCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MotherBoardInfo.Infrastructure.Commands.Command" Collapsed="true">
+    <Position X="33" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAQAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Infrastructure\Commands\Command.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MotherBoardInfo.Infrastructure.Commands.DelegateCommand">
+    <Position X="29.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQCAAAAAAQAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Infrastructure\Commands\DelegateCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MotherBoardInfo.Infrastructure.Commands.MinimizeWindowCommand">
+    <Position X="36.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Infrastructure\Commands\MinimizeWindowCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MotherBoardInfo.Infrastructure.Commands.MoveAppCommand">
+    <Position X="38.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Infrastructure\Commands\MoveAppCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MotherBoardInfo.Infrastructure.Commands.SetLocalizeCommand">
+    <Position X="32" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAQAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Infrastructure\Commands\SetLocalizeCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MotherBoardInfo.Models.BIOS">
+    <Position X="14" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAIBAAAAAAAAAAAAAAAAQABAABBAAAAAAAAA=</HashCode>
+      <FileName>Models\BIOS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MotherBoardInfo.Models.Core">
+    <Position X="12.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Models\Core.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MotherBoardInfo.Models.CPU">
+    <Position X="14" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AYwAAAAAAgIAAAAAgQAAAAEBQgEAIEAEAEgAAIAAAAA=</HashCode>
+      <FileName>Models\CPU.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MotherBoardInfo.Models.GPU">
+    <Position X="10.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAEAAAAAAAACIAEAIAAAAAAAAABAAgAAAABAIA=</HashCode>
+      <FileName>Models\GPU.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MotherBoardInfo.Models.Memory">
+    <Position X="19.25" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAgAiAAIAAgAAIAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Memory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MotherBoardInfo.Models.Motherboard">
+    <Position X="20.25" Y="6.25" Width="1.5" />
+    <InheritanceLine Type="MotherBoardInfo.ViewModels.Base.ViewModel" ManuallyRouted="true">
+      <Path>
+        <Point X="16.5" Y="9" />
+        <Point X="16.5" Y="8.625" />
+        <Point X="19.875" Y="8.625" />
+        <Point X="19.875" Y="5.875" />
+        <Point X="21" Y="5.875" />
+        <Point X="21" Y="6.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>IAgAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Models\Motherboard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MotherBoardInfo.Models.RAM">
+    <Position X="21" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAoAAAAAAAAAAAAAgAIAAECAAIAAAAAAAQCAAAAAAgA=</HashCode>
+      <FileName>Models\RAM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MotherBoardInfo.Services.MotherboardService">
+    <Position X="26.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAEAAAAACAAAAACAAAAAAAAAMAAAAAAAAAAA=</HashCode>
+      <FileName>Services\MotherboardService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MotherBoardInfo.ViewModels.Base.ViewModel" Collapsed="true">
+    <Position X="15.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAIAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\Base\ViewModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Left" Position="0.362" />
+  </Class>
+  <Class Name="MotherBoardInfo.ViewModels.CPUViewModel">
+    <Position X="12" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\CPUViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MotherBoardInfo.ViewModels.GPUViewModel">
+    <Position X="15.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>ViewModels\GPUViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MotherBoardInfo.ViewModels.MainWindowViewModel">
+    <Position X="17.5" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAACAFACA4AQAEAAAgEEAACoCAAEQAAAAgAAAgAAIAA=</HashCode>
+      <FileName>ViewModels\MainWindowViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MotherBoardInfo.ViewModels.MemoryViewModel">
+    <Position X="15.75" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAgAAAAAAAAAAAAAAAAAAAABAAgAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\MemoryViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MotherBoardInfo.ViewModels.MotherboardViewModel">
+    <Position X="17.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAABAAAQAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\MotherboardViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MotherBoardInfo.Views.CPUView" BaseTypeListCollapsed="true">
+    <Position X="30.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\CPUView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MotherBoardInfo.Views.GraphicView" BaseTypeListCollapsed="true">
+    <Position X="32.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\GraphicView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MotherBoardInfo.Views.MainWindow" BaseTypeListCollapsed="true">
+    <Position X="34.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MotherBoardInfo.Views.MemoryView" BaseTypeListCollapsed="true">
+    <Position X="30.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\MemoryView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MotherBoardInfo.Views.MotherboardView" BaseTypeListCollapsed="true">
+    <Position X="32.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\MotherboardView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
