@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.33423.256
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MotherBoardInfo", "MotherBoardInfo\MotherBoardInfo.csproj", "{0513C33F-AECD-4B92-972D-F4E745E5DE72}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SetupMotherBoard", "SetupMotherBoard\SetupMotherBoard.vdproj", "{03F643D3-91C6-480F-8F6C-2876814B8EE8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,8 @@ Global
 		{0513C33F-AECD-4B92-972D-F4E745E5DE72}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0513C33F-AECD-4B92-972D-F4E745E5DE72}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0513C33F-AECD-4B92-972D-F4E745E5DE72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03F643D3-91C6-480F-8F6C-2876814B8EE8}.Debug|Any CPU.ActiveCfg = Debug
+		{03F643D3-91C6-480F-8F6C-2876814B8EE8}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

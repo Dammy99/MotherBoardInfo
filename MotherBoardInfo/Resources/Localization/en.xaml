@@ -66,6 +66,6 @@
     <system:String x:Key="DACType">DAC type:</system:String>
     <system:String x:Key="INFFile">INF file:</system:String>
     <system:String x:Key="INFsection">INF section:</system:String>
-    <system:String x:Key="Developer">The program was developed by a student of the KI-34 group, Demchyk Nazar</system:String>
+    <system:String x:Key="Developer">For full size program, please double click twice on top of the program. The program was developed by a student of the KI-34 group, Demchyk Nazar</system:String>
    
 </ResourceDictionary>

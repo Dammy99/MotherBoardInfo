@@ -64,6 +64,6 @@
     <system:String x:Key="DACType">тип ЦАП:</system:String>
     <system:String x:Key="INFFile">INF файл:</system:String>
     <system:String x:Key="INFsection">INF секція:</system:String>
-    <system:String x:Key="Developer">Програма була розроблена студентом групи КІ-34 Демчиком Назаром</system:String>
+    <system:String x:Key="Developer">Для збільшення на весь екран, подвійний клік на верхню панель програми. Програма була розроблена студентом групи КІ-34 Демчиком Назаром</system:String>
     
 </ResourceDictionary>

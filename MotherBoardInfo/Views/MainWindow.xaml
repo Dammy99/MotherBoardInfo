@@ -76,7 +76,7 @@
                             <Image Source="question-mark.png" HorizontalAlignment="Right" Height="30" Margin="80 0 " >
                             </Image>
                                 <Grid.ToolTip>
-                                    <Grid Background="Transparent">
+                                    <Grid MaxWidth="500" Background="Transparent">
                                         <Border Style="{StaticResource Background3}" Margin="-9" CornerRadius="5" Background="#FF102637">
                                             <TextBlock Text="{DynamicResource Developer}" Style="{StaticResource SimpleTextStyle}" FontSize="14" Margin="20" TextWrapping="Wrap"></TextBlock>
                                         </Border>

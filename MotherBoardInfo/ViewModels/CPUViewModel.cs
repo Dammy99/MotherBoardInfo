@@ -1,17 +1,13 @@
 ﻿using MotherBoardInfo.Models;
 using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Management;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace MotherBoardInfo.ViewModels
 {
     class CPUViewModel : Base.ViewModel
     {
-
-
         private CPU _cpu;
 
         public CPU CPU
@@ -33,7 +29,6 @@ namespace MotherBoardInfo.ViewModels
             {
                 while (true)
                 {
-
                     ManagementObjectSearcher searcher = new ManagementObjectSearcher("select * from Win32_PerfFormattedData_PerfOS_Processor");
                     try
                     {
@@ -65,8 +60,6 @@ namespace MotherBoardInfo.ViewModels
                     {
                         CPU.Cores = default;
                     }
-
-
                 }
             });
 

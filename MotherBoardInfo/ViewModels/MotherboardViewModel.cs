@@ -4,8 +4,6 @@ namespace MotherBoardInfo.ViewModels
 {
     class MotherboardViewModel : Base.ViewModel
     {
-
-
         private Motherboard motherboard;
         public Motherboard Motherboard
         {
